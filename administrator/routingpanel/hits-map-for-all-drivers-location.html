@@ -1,0 +1,145 @@
+
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false&key=AIzaSyBBE53xDKH93kCWSWREyehlzH8N_t2R2lw"></script>
+<!----><script language="javascript" type="text/javascript" src="../scripts/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="../scripts/jquery-ui-1.8.2.custom.min.js"></script>
+
+<script type="text/javascript">
+var overlay;
+var map;
+var markersArray = [];
+var row = new Array();
+var b = new Array();
+var a = new Array();
+var alldata = new Array();
+var setdata = [];
+function fetchdata()
+{  var ABC = 'alldrivers';
+$.post("fetchdriverslocations.php", {sheetid: ""+ABC}, function(data){ 
+			if(data.length > 0)
+			{	var testdata = data;
+			 alldata = testdata; //alert(alldata);
+				}  
+	}); 
+}
+	
+function initialize() {
+  var haightAshbury = new google.maps.LatLng(42.0058862,-88.1714097);
+  var mapOptions = {
+    zoom: 13,
+    center: haightAshbury,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map =  new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+}
+// Removes the overlays from the map, but keeps them in the array
+function clearOverlays() {
+  if (markersArray) {
+    for (i in markersArray) {
+      markersArray[i].setMap(null);
+    }
+  }
+}
+// Shows any overlays currently in the array
+function showOverlays() {
+  if (markersArray) {
+    for (i in markersArray) {
+      markersArray[i].setMap(map);
+    }
+  }
+}
+// Deletes all markers in the array by removing references to them
+function deleteOverlays() {
+  if (markersArray) {
+    for (i in markersArray) {
+      markersArray[i].setMap(null);
+    }
+    markersArray.length = 0;
+  }
+}
+function loopmaker(){ 
+fetchdata();
+	//alert(alldata);
+	clearOverlays();
+	//nae code
+				
+				row = alldata.split('@');
+				//var tttt = row.length+Number(1);
+				for (var i = 0; i < row.length; i++) { 
+				var t =  new Object();
+				var onerec = row[i];
+				driverrec = onerec.split('^');
+				t.lat =  driverrec[1]; 
+				t.lng =  driverrec[2];
+				t.name = driverrec[3];
+				setdata[i] = t; //alert(setdata[i]);
+				} //alert(setdata.length);
+	//end of new code
+	var yarana = setdata; //alert(yarana);
+	  for (var j = 0; j < yarana.length; j++) {
+        var latlng = new google.maps.LatLng(yarana[j].lat, yarana[j].lng);
+		//addMarker(yarana[j].name,latlng);  
+		map.addMarker(createMarker(yarana[j].name,latlng));
+     }
+	     console.log(map.getMarkers());    
+    
+//  console.log(map.getMarkers());
+	  }
+var infowindow;
+(function () {
+  google.maps.Map.prototype.markers = new Array();
+ /**/ google.maps.Map.prototype.addMarker = function(marker) {
+    this.markers[this.markers.length] = marker;  markersArray.push(marker);
+  };
+  google.maps.Map.prototype.getMarkers = function() {
+    return this.markers
+  };
+  google.maps.Map.prototype.clearMarkers = function() {
+    if(infowindow) {
+      infowindow.close();
+    }
+    for(var i=0; i<this.markers.length; i++){
+      this.markers[i].set_map(null);
+    }
+  };
+})();
+// Removes the overlays from the map, but keeps them in the array
+function clearOverlays() {
+  if (markersArray) {
+    for (i in markersArray) {
+      markersArray[i].setMap(null);
+    }
+  }
+}
+ function createMarker(name, latlng) {
+	 var image = 'pointer/red.png';
+    var marker = new google.maps.Marker({position: latlng, map: map,icon: image});
+    google.maps.event.addListener(marker, "click", function() {
+      if (infowindow) infowindow.close();
+      infowindow = new google.maps.InfoWindow({content: name});
+      infowindow.open(map, marker);
+    });
+    return marker;
+  }
+  
+</script>
+</head>
+<body onLoad="initialize()">
+ <div id="map_canvas" style="width:100%; height:600px;float:left;"></div>
+ <br style="clear: both;"/>
+</body>
+</html>
+<script type="text/javascript">
+
+setInterval("loopmaker();", 3000);
+
+</script>	
+<html></html>
+<html></html>
+<html></html>
+<html></html>
+<html></html>
+<html></html>
+<html></html>

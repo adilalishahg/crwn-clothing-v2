@@ -1,0 +1,158 @@
+12-07-2022 11:26:12 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11243232334 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-07-2022 16:44:53 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11243232334 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-07-2022 16:48:21 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11243232334 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-07-2022 16:51:55 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11243232334 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-07-2022 17:44:03 Number: 7732904406 Message: Dear Test Driver, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-07-2022 17:48:05 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11243232334 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-08-2022 15:08:11 Number: 7732904406 Message: Dear Test Driver, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-09-2022 13:42:57 Number: 7062846855 Message: Dear Tyler Reynolds, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-14-2022 14:42:02 Number: 7062846855 Message: Dear Tyler Reynolds, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-14-2022 15:08:39 Number: 7062846855 Message: Dear Robert Wylds, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-14-2022 17:34:08 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-14-2022 17:34:18 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-16-2022 14:14:47 Number: 7732904406 Message: Dear Test Driver, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-16-2022 15:29:31 Number: 7067991944 Message: Dear Gary Hughes, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-19-2022 12:10:18 Number: 7062846855 Message: Dear Tyler Reynolds, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-20-2022 10:44:34 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 10:54:04 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 10:56:45 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 10:57:01 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 10:57:17 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 10:59:37 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 11:19:07 Number: 7062846855 Message: Dear Admin Demo, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-20-2022 11:21:27 Number: 7062846855 Message: Dear Admin Demo, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-20-2022 11:24:06 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-20-2022 11:24:38 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-21-2022 10:21:37 Number: 7062846855 Message: Dear Demo Admin test, This is to notify that we have schedule your trip request on GRECO Transport LLC.
+12-28-2022 19:11:02 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11111111111 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-28-2022 19:11:06 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11111111111 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-28-2022 19:11:10 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11111111111 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-28-2022 19:19:33 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-29-2022 10:10:28 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+12-29-2022 10:43:16 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +10332442333 is not a valid phone number.' in /home/gretrans/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/gretrans/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/gretrans/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/gretrans/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/gretrans/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}

@@ -1,0 +1,10 @@
+.errmsg {
+	color:#FF0000;
+	font-size:12px;
+	font-weight:bold;
+}
+.okmsg {
+	color:#3366FF;
+	font-size:12px;
+	font-weight:bold;
+}

@@ -1,0 +1,57 @@
+$this->load->helper('pdf_helper');
+		$dateFrom = $this->common_function->datetosql( $this->input->post('dateFrom') ) . ' 00:00:00'; 
+		$dateTo = $this->common_function->datetosql( $this->input->post('dateTo') ) . ' 23:59:59'; 
+		
+		$conditions = array( 'payment_date >=' => $dateFrom, 'payment_date <=' => $dateTo );		
+		if( $this->input->post('company_id') )
+			$conditions['company_id'] = $this->input->post('company_id');			
+		$records = $this->common_model->get_all_rows_with_condition('company_payments', $conditions );		
+		tcpdf();
+		$obj_pdf = new TCPDF('L', PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+		$obj_pdf->SetCreator(PDF_CREATOR);
+		$title = "PDF Report";
+		$obj_pdf->SetTitle($title);
+		$obj_pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, $title, PDF_HEADER_STRING);
+		$obj_pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+		$obj_pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+		$obj_pdf->SetDefaultMonospacedFont('helvetica');
+		$obj_pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
+		$obj_pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
+		$obj_pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+		$obj_pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+		$obj_pdf->SetFont('helvetica', '', 9);
+		$obj_pdf->setFontSubsetting(false);
+		$obj_pdf->AddPage();
+		ob_start();
+			// we can have any view part here like HTML, PHP etc
+			#,Client,Contact Person,Registration,Phone,Fax,Email, Web URL
+		$content = '<table border="1">
+						<thead>
+							<tr>
+								<th width="5%" class="text-center">#</th>
+								<th width="10%" class="text-center">Company</th>
+								<th width="15%" class="text-center">Payee Name</th>
+								<th width="10%" class="text-center">Card Type</th>
+								<th width="10%" class="text-center">Payment Date</th>				  
+								<th width="25%" class="text-center">Billing Address</th>
+								<th width="15%" class="text-center">Email</th>
+							</tr>
+						</thead><tbody>';
+		$count = 1;
+		foreach($records as $r){
+			$content .= '<tr>
+							<td width="5%">'.$count++.'</td>
+							<td width="10%">'.$r->company_id .'</td>
+							<td width="15%">'.$r->first_name .' '.$r->last_name .'</td>
+							<td width="10%">'.$r->card_type .'</td>
+							<td width="10%">'.$this->common_function->dateTimeFromSQL($r->payment_date) .'</td>
+							<td width="25%">'.$r->address .', '.$r->city .', '.$r->state .' '.$r->zip .'</td>
+							<td width="15%">'.$r->email .'</td>							
+						</tr>';
+						
+		}
+		$content .=	'</tbody>
+					</table>';			
+		ob_end_clean();
+		$obj_pdf->writeHTML($content, true, false, true, false, '');
+		$obj_pdf->Output('output.pdf', 'I');

@@ -1,0 +1,50 @@
+10-03-2022 11:34:55 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-03-2022 12:47:32 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-03-2022 14:18:17 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-03-2022 14:47:55 Number: 3475123369 Message: Dear test, This is to notify that we have schedule your trip request on Upscale Transport LLC.
+10-10-2022 19:11:18 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +11234567777 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-13-2022 11:10:36 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-27-2022 12:00:39 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+10-28-2022 11:28:03 Number: Message not sent Message: exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/upscale/public_html/twilio/Services/Twilio.php:297
+Stack trace:
+#0 /home/upscale/public_html/twilio/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home/upscale/public_html/twilio/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/upscale/public_html/twilio/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/upscale/public_html/administrator/routingpanel/dvmap.php(208): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}

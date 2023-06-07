@@ -1,0 +1,539 @@
+/* *************************** *
+
+	   * Created On : 4th April,2009 
+
+	   * Coded By : Muhammad Sajid
+
+	   * All Rights Reserved 2009 by : HITS (Hybrid IT Services) 
+
+	   * http://www.hybriditservices.com/demos/httglobal-2/hybriditservices.com
+
+	   *************************** */
+
+	   
+
+/******* STANDARD CSS ********/	   
+
+	   
+
+body{
+
+margin:0px 0px 0px 0px;
+
+padding: 0px 0px 0px 0px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#666666;
+
+font-size:12px;
+
+text-align:left;
+
+background-repeat:repeat-x;
+
+background-color:#FFFFFF;
+
+}
+
+
+
+
+
+
+
+  
+
+table{
+
+text-align:left;
+
+}
+
+
+
+h1,h2,h3,h4{
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+}
+
+
+
+a:link {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+
+
+font-size:12px;
+
+text-decoration:none;
+
+}
+
+
+
+a:hover {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+font-size:12px;
+
+text-decoration:underline;
+
+}
+
+
+
+
+
+
+
+/*********** CUSTOM CSS ***********/
+
+
+
+.mainTxt:link {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+font-size:12px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.mainTxt:hover {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+font-size:12px;
+
+text-decoration:underline;
+
+font-weight:bold;
+
+}
+
+
+
+.mainTxt:visited {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#86b7e5;
+
+font-size:12px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.SignUp:link {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#0063c5;
+
+font-size:12px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.SignUp:visited {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#0063c5;
+
+font-size:12px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.SignUp:hover {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#0063c5;
+
+font-size:12px;
+
+text-decoration:underline;
+
+font-weight:bold;
+
+}
+
+
+
+.contentlink:link{ 
+
+font-family:Verdana, Arial, Helvetica, sans-serif; 
+
+text-decoration:none;  
+
+color:#00CCFF;  
+
+font-weight:bold; 
+
+ } 
+
+.contentlink:visted { 
+
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+
+text-decoration:underline; 
+
+color:#FFFFFF ;
+
+font-weight:bold;
+
+} 
+
+.contentlink:hover{
+
+ font-family:Verdana, Arial, Helvetica, sans-serif;  
+
+ text-decoration:underline; 
+
+ color:#FFFFFF;
+
+ font-weight:bold;
+
+ }
+
+
+
+
+
+.LoginheadingTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#FFFFFF;
+
+font-size:13px;
+
+font-weight:bold;
+
+}
+
+
+
+.mainHeadingTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#FFFFFF;
+
+background-color:#82b5e4;
+
+font-size:13px;
+
+font-weight:bold;
+
+}
+
+
+
+.smallHeadingTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#FFFFFF;
+
+background-color:#82b5e4;
+
+font-size:11px;
+
+font-weight:bold;
+
+text-align: left;
+
+}
+
+
+
+.SmallnoteTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#ff3300;
+
+font-size:11px;
+
+font-weight:bold;
+
+}
+
+
+
+.MediumnoteTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#ff3300;
+
+font-size:12px;
+
+font-weight:bold;
+
+}
+
+
+
+.TestiMonialH3{
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#0063c5;
+
+font-size:12px;
+
+font-weight:bold;
+
+}
+
+
+
+.SmallgridTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#666666;
+
+font-size:11px;
+
+}
+
+
+
+.SmallgreenTxt {
+
+font-family:Arial, Helvetica, sans-serif;
+
+color:#CC6600;
+
+font-size:11px;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+.outer_table{
+
+border:1px solid #82b5e4;
+
+}
+
+
+
+/************ FORMS **************/
+
+
+
+.inputTxtField {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+width:140px;
+
+}
+
+
+
+.inputTxtFieldsmall {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+}
+
+
+
+
+
+.SelectBox {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+width:145px;
+
+}
+
+
+
+.inputBrowseField {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+width:210px;
+
+}
+
+
+
+
+
+.txtArea {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+width:210px;
+
+}
+
+
+
+.txtArea2 {
+
+font-size:11px;
+
+border-top:1px solid #6666666;
+
+border-left:1px solid #666666;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+width:460px;
+
+}
+
+
+
+.inputButton {
+
+font-size:12px;
+
+border-top:1px solid #999999;
+
+border-left:1px solid #999999;
+
+border-right:1px solid #999999;
+
+border-bottom:1px solid #999999;
+
+background-color:#787372;
+
+color:#FFFFFF;
+
+width:90px;
+
+text-align:center;
+
+vertical-align:middle;
+
+padding: 2px 2px 2px 2px;
+
+}
+
+
+
+/* VALIDATION JQUERY */
+
+#field { margin-left: .5em; float: left; }
+
+#field, label { float: left; font-family: Arial, Helvetica, sans-serif; font-size: small; }
+
+	br { clear: both; }
+
+	input { border: 1px solid black; margin-bottom: .5em;  }
+
+	input.error { border: 1px solid red; }
+
+	label.error {
+
+		background: url('../images/unchecked.gif') no-repeat;
+
+		padding-left: 16px;
+
+		margin-left: .3em;
+
+	}
+
+	label.valid {
+
+		background: url('../images/checked.gif') no-repeat;
+
+		display: block;
+
+		width: 16px;
+
+		height: 16px;
+
+	}
