@@ -8,7 +8,7 @@
 
 
 
- 
+ echo"";
 
 
 
@@ -3057,11 +3057,3 @@ $query = "SELECT * FROM ".TBL_CONTACT;
 	  $_SESSION['st'] = $st;
 $db->close();
 log_me();
-
-
-
-
-
-
-
-?>
